@@ -1,0 +1,57 @@
+.padre-contenedor{
+    width: 1500px;
+    height: 2000px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.hijo{
+    width: 300px;
+    height: auto;
+    background-color: blueviolet;
+    margin: 5px;
+    padding: 10px;
+}
+.imagen{
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+.columna{
+    flex-direction: column;
+}
+.ocultar{
+    display: none;
+}
+
+.ampliarTarjeta {
+        display: flex;
+        width: 700px;
+        height: auto;
+        background-color: blueviolet;
+        margin: 5px;
+        padding: 10px;
+
+}
+.comprar{
+    margin: 15px;
+    width: 120px;
+    height: 40px;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 10px;
+    outline-style: none;
+}
+.comprar:hover{
+    background-color: crimson;
+    color: #fff;
+}
