@@ -5,14 +5,6 @@ const padreContenedor = document.querySelector('.padre-contenedor')
 const divHijo = document.querySelectorAll('.hijo')
 
 
-// Tipo de vista de los contenedores de las tarjetas lista y grid
-
-// const recorrerTarjetas = () => {
-//     for (let hijito of divHijo){
-//         return true
-//     }
-    
-// }
 
 
 
@@ -49,4 +41,3 @@ btnGrid.onclick = () => {
     vista_grid()
     contenedor_grid()
 }
-// FIn seccion tipo de vista grid y lista
